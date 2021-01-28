@@ -14,11 +14,13 @@ export class ChoosePicture extends React.Component {
     );
   }
 }
-
+    
 // for developer alert (in console)
 ChoosePicture.propTypes = {
   src: PropTypes.string.isRequired
 };
+
+
 
 ChoosePicture.defaultProps = { src:'https://i.picsum.photos/id/111/200/300.jpg?hmac=bXXQTtXTex0m2Ogp23o7VFcNHAllTfE-8eSPYK2GeGM'} ;
 // if there is no props passed here, it uses this default prop.
