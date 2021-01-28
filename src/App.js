@@ -17,13 +17,16 @@ class App extends React.Component {
     this.setState({ currentPic: next });
   }
 
+
   timer=null;
+
 
   start= () =>{
   if(!this.timer){
     this.timer = setInterval(this.nextPic, 2000)}
   }
 
+  
   stop= () =>{
     clearInterval(this.timer);
     this.timer=null;
