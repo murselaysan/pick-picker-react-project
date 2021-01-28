@@ -7,6 +7,8 @@ var PICTUREPATHS = [
   'https://i.picsum.photos/id/79/200/300.jpg?hmac=uqOMZrx9qlolrYp0xS5t84xjCiD_BIjfxIugTa1xjho'
 ];
 
+
+
 class App extends React.Component {
   state = { currentPic: 0 };
 
